@@ -24,18 +24,64 @@ button:hover {
   /* cursor: pointer; */
 }
 
-button:focus {
+.convertSubmitBtnContainer {
+  justify-content: center;
+  display: flex;
+}
+#submitBtn {
+  border-width: 2px;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+}
+#submitBtn:focus {
   outline: none;
   background-color: rgb(48, 190, 119);
   color: white;
   border-style: none;
-  /* text-decoration: underline; */
 }
-
+.homeBtn {
+  border-width: 2px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  font-size: 15px;
+}
 .btnConverter {
   border-width: 2px;
   border-radius: 50px;
   width: 150px;
   height: 50px;
   margin: 20px;
+  font-size: 15px;
+}
+button:focus {
+  outline: none;
+  background-color: rgb(48, 190, 119);
+  color: white;
+  border-style: none;
+}
+
+.convertInputContainer {
+  justify-content: center;
+  display: flex;
+}
+
+#inputVal {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#inputVal::placeholder {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  justify-content: center;
+  display: flex;
 }
