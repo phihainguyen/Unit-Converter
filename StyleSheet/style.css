@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.btnContainer {
+  justify-content: center;
+  display: flex;
+}
+
+button:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: 0.9s;
+  /* cursor: pointer; */
+}
+
+button:focus {
+  outline: none;
+  background-color: rgb(48, 190, 119);
+  color: white;
+  border-style: none;
+  /* text-decoration: underline; */
+}
+
+.btnConverter {
+  border-width: 2px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+}
