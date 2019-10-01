@@ -29,5 +29,20 @@ for (let i = 0; i < btnConverter.length; i++) {
     inputVal.style.display = "inline";
 
     btnInfo[i].style.display = "flex";
+
+    console.log(this.textContent);
+    if (this.textContent === "℉ to ℃") {
+      inputVal.setAttribute("placeholder", "Farenheit Value");
+      submitBtn.style.display = "block";
+    } else if (this.textContent === "Lbs to Kg") {
+      submitBtn.style.display = "block";
+      inputVal.setAttribute("placeholder", "Lbs Value");
+    } else if (this.textContent === "Miles to Kilometer") {
+      submitBtn.style.display = "block";
+      inputVal.setAttribute("placeholder", "Miles Value");
+    } else if (this.textContent === "Feet to Meters") {
+      submitBtn.style.display = "block";
+      inputVal.setAttribute("placeholder", "Feet Value");
+    }
   });
 }
