@@ -76,6 +76,16 @@ button:focus {
   text-align: center;
 }
 
+.resultClass {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+#equalsign {
+  margin: 10px;
+}
+
 #inputVal::placeholder {
   text-align: center;
   font-size: 15px;
