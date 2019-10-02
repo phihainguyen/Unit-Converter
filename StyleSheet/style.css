@@ -8,7 +8,24 @@ html {
 body {
   box-sizing: border-box;
 }
-
+#results {
+  justify-content: center;
+  height: 40px;
+  width: 260px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(117, 133, 91);
+  position: relative;
+  border-radius: 5px;
+}
+.resultClass.show {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -5% 0 0 -25%;
+}
 .btnContainer {
   justify-content: center;
   display: flex;

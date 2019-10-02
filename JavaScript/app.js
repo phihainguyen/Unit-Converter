@@ -16,9 +16,10 @@ for (let i = 0; i < btnConverter.length; i++) {
       btnInfo[j].style.display = "none";
     }
 
-    results.style.backgroundColor = "transparent";
-    results.style.borderStyle = "solid";
-    results.style.color = "black";
+    // results.style.backgroundColor = "transparent";
+    // results.style.borderStyle = "solid";
+    // results.style.color = "black";
+    // results.style.textAlign = "center";
 
     console.log(show);
     show[0].textContent = "=";
@@ -27,6 +28,7 @@ for (let i = 0; i < btnConverter.length; i++) {
     show[0].style.display = "inline";
     show[1].style.display = "inline";
     inputVal.style.display = "inline";
+    results.style.display = "inline";
 
     btnInfo[i].style.display = "flex";
 
