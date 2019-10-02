@@ -46,3 +46,17 @@ for (let i = 0; i < btnConverter.length; i++) {
     }
   });
 }
+
+submitBtn.addEventListener("click", calculate);
+inputVal.addEventListener("keyup", enteredCheck);
+
+function enteredCheck(event) {
+  if (event.which === 13) {
+    // console.log("enetered was clicked");
+    submitBtn.click;
+  }
+}
+
+function calculate() {
+  console.log("calculating...");
+}
