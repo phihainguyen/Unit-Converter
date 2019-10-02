@@ -54,8 +54,8 @@ inputVal.addEventListener("keyup", enteredCheck);
 
 function enteredCheck(event) {
   if (event.which === 13) {
-    // console.log("enetered was clicked");
-    submitBtn.click;
+    // console.log("entered was clicked");
+    submitBtn.click();
   }
 }
 
