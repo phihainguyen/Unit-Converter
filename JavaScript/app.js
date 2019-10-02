@@ -58,5 +58,20 @@ function enteredCheck(event) {
 }
 
 function calculate() {
-  console.log("calculating...");
+  let convertNum = inputVal.value;
+  let convertResults;
+
+  if (inputVal.placeholder === "Farenheit Value") {
+    convertResults = ((convertNum - 32) * 5) / 9;
+    results.textContent = convertResults + " ℃";
+  } else if (inputVal.placeholder === "Lbs Value") {
+    convertResults = convertNum / 2.205;
+    results.textContent = convertResults + " kg";
+  } else if (inputVal.placeholder === "Miles Value") {
+    convertResults = convertNum * 1.609344;
+    results.textContent = convertResults + " km";
+  } else if (inputVal.placeholder === "Feet Value") {
+    convertResults = convertNum / 3.281;
+    results.textContent = convertResults + " m";
+  }
 }
